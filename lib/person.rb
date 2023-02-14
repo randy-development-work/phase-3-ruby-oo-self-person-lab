@@ -20,6 +20,9 @@ class Person
         @happiness = value
         @happiness = 10 if value > 10
         @happiness = 0 if value < 0
+
+        # if (value <= 10 && value >= 0)
+        # @happiness = value
     end
 
     def hygiene=(value)
